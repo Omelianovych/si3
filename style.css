@@ -61,7 +61,7 @@ html, body {
   
   .hero-image img,
   .about-image img {
-    max-height: 400px; /* уменьшено на 20% */
+    max-height: 400px;
     height: auto;
     width: 100%;
     object-fit: cover;
@@ -77,9 +77,11 @@ html, body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
   }
   
-  /* Контент расширяется */
+  /* Контент */
   main {
     flex: 1;
   }
@@ -90,5 +92,29 @@ html, body {
     color: white;
     text-align: center;
     padding: 10px;
+  }
+  
+  /* Контактна форма */
+  .contact-section {
+    padding: 40px;
+    background-color: #f7f4f1;
+    border-top: 1px solid #ccc;
+  }
+  
+  .contact-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form {
+    max-width: 400px;
+    margin-top: 10px;
+  }
+  
+  .contact-section input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-bottom: 10px;
   }
   
