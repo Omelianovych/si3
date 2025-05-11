@@ -1,6 +1,5 @@
-[build]
-  command = "npm run build"      # ваша команда сборки
-  publish = "build"              # папка с готовым статикам
+[build]  
+  publish = "build"
 
 [[redirects]]
   from       = "/admin.html"
