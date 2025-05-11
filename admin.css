@@ -1,45 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f4f1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9eef3;
+    margin: 0;
+    padding: 20px;
   }
   
-  .admin-container {
-    background-color: white;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+  .admin-panel {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
   }
   
   h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #333;
   }
   
-  label {
+  .admin-section label {
     display: block;
-    margin-top: 10px;
+    margin: 15px 0 6px;
+    font-weight: bold;
+    color: #444;
   }
   
-  input {
+  .admin-section input,
+  .admin-section textarea {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    box-sizing: border-box;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
   }
   
-  button {
+  .admin-section button {
     width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #5c4033;
+    padding: 12px;
+    background: #0077cc;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 16px;
     cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .admin-section button:hover {
+    background: #005fa3;
   }
   
