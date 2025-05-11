@@ -1,5 +1,10 @@
+[build]
+  command = "npm run build"      # ваша команда сборки
+  publish = "build"              # папка с готовым статикам
+
 [[redirects]]
-  from   = "/admin.html"
-  to     = "/404.html"
-  status = 404
-  force  = true
+  from       = "/admin.html"
+  to         = "/404.html"
+  status     = 404
+  force      = true
+
