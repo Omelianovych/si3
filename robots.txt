@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /about.html
 Disallow: /menu.html
+Disallow: /admin.html
